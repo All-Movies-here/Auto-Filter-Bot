@@ -56,7 +56,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 't.me/All_NEWMOVIE2024')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'All_NEWMOVIE2024')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
